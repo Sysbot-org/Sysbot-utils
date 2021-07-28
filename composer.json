@@ -1,0 +1,25 @@
+{
+  "name": "sysbot/sysbot-utils",
+  "description": "Random utilities for Sysbot.",
+  "license": "GPL-3.0-or-later",
+  "require": {
+    "php": "^8.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sysbot\\Utils\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "sys-001",
+      "email": "sys@sys001.ml",
+      "homepage": "https://sys001.ml",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Sysbot-org/Sysbot-utils/issues"
+  }
+}
